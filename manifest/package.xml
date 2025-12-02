@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>BATCH_TEST_Platform_Events</members>
+		<members>HD_LWC_PlatformEventSpinner</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>SCPC_Spinner__e.Progress_count__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>SCPC_Spinner__e</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>platformEventSpinner</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>64.0</version>
+</Package>

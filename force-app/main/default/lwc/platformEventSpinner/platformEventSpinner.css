@@ -1,0 +1,47 @@
+:host {
+    --red-primary-color: #cb0d00;
+    --bg-color-main: white;
+    --bg-color-footer: #ff8986;
+    --flex-header: 0 0 15%;
+    --flex-header-full-screen: 0 0 5%;
+    --flex-main: 0 0 77%;
+    --flex-main-full-screen: 0 0 95%;
+    --flex-footer: 0 0 8%;
+    --border-color: #c5c5c5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: black;
+}
+
+.bar-container {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 7vh;
+    border: 0.5em solid #4e0119;
+    border-radius: 25em;
+    background-color: rgb(212 178 178);
+    box-shadow: 0.3em 0.3em 0.2em 0.1em rgb(172 0 0 / 20%);
+    overflow: hidden; /* importante per nascondere overflow della barra riempita */
+    padding: 0;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: #C5003E;
+    border-radius: 25em 0 0 25em;
+    transition: width 0.3s ease; /* animazione fluida */
+}
